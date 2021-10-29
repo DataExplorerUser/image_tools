@@ -11,7 +11,7 @@ from PIL import Image
 
 def main():
     # os.mkdir("assets/icons")
-    spritesheet = Image.open('spritesheet/leaves2.png')
+    spritesheet = Image.open('spritesheet/spritesheet.png')
     num_columns = 1
     num_rows = 5
     left_margin = 0
