@@ -15,7 +15,7 @@ def flip(image):
     new_image_name = 'left_' + image
     flip_img.save(new_image_name)
 
-images = get_music_files('C:/Users/Wiebe/PycharmProjects/DPG_update/Raccoon Music Player TO DO/raccoon COPY')
+images = get_music_files('images/')
 
 # flip(images[0])
 for image in images:
