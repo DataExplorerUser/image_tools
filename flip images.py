@@ -10,12 +10,12 @@ def get_music_files(folder):
 
 def flip(image):
     img = Image.open(image)
-    flip_img = img.transpose(Image.FLIP_LEFT_RIGHT) # flip anti-clockwise
+    flip_img = img.transpose(Image.FLIP_LEFT_RIGHT)
     # flip_img.show()
     new_image_name = 'left_' + image
     flip_img.save(new_image_name)
 
-images = get_music_files('images/')
+images = get_files('images/')
 
 # flip(images[0])
 for image in images:
