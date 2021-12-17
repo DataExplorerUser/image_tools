@@ -1,4 +1,4 @@
-# TESTING
+# OKOKOK
 from os import listdir
 from PIL import Image
 
